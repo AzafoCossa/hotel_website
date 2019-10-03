@@ -63,9 +63,14 @@ p {
     color: #fff;
 }
 
-.br-primary {
-    background: #333;
-    color: #f7c08a;
+.bg-primary {
+    color: #333;
+    background: #f7c08a;
+}
+
+.bg-light {
+    background: #F4F4F4;
+    color: #333;
 }
 
 .btn:hover {
@@ -154,7 +159,7 @@ p {
 #home-info .info-img {
     float: left;
     width: 50%;
-    background: url('../img/dug-out-pool-hotel.jpg') no-repeat;
+    background: url('../img/dug-out-pool-hotel.jpg') no-repeat center center/cover;
     min-height: 100%;
 }
 
@@ -169,4 +174,16 @@ p {
 
 #home-info .info-content p {
     padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
 }
