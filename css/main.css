@@ -21,6 +21,7 @@ h1,
 h2,
 h3 {
     padding-bottom: 20px;
+    text-transform: capitalize;
 }
 
 p {
@@ -33,6 +34,10 @@ p {
     max-width: 1100px;
     overflow: auto;
     padding: 0 20px;
+}
+
+.clr {
+    clear: both;
 }
 
 .text-primary {
@@ -186,4 +191,16 @@ p {
 
 .box i {
     margin-bottom: 10px;
+}
+
+/* Main Footer */
+#main-footer {
+    text-align: center;
+    color: #fff;
+    background: #444;
+}
+
+#main-footer p {
+    margin: 0;
+    padding: 20px;
 }
