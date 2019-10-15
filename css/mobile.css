@@ -15,11 +15,14 @@
 
 
 /* Showcase*/
+#showcase {
+    height: 100%;
+
+}
 
 #showcase .showcase-content {
-    color: #fff;
-    text-align: center;
-    padding-top: 90px;
+    padding-top: 70px;
+    padding-bottom: 30px;
 }
 
 
@@ -45,4 +48,37 @@
 .box {
     float: none;
     width: 100%;
+}
+
+/* About */
+#about-info .info-right,
+#about-info .info-left {
+    float: none;
+    width: 100%;
+}
+
+#about-info .info-right {
+    margin-top: 30px;
+}
+
+.l-heading {
+    text-align: center;
+}
+
+/* Testimonials */
+#testimonials {
+    padding-top: 50px;
+}
+
+#testimonials .container h2 {
+    font-size: 36px;
+}
+
+/* Contact */
+#contact-info .box {
+    border-bottom: #444 dotted 1px;
+}
+
+#contact-info .box:last-child {
+    border: none;
 }

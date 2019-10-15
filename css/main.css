@@ -47,6 +47,7 @@ p {
 
 .l-heading {
     font-size: 40px;
+    line-height: 1.2;
 }
 
 .text-primary {
@@ -258,7 +259,7 @@ p {
 /* Testimonials */
 
 #testimonials {
-    height: 600px;
+    height: 100%;
     background: url('../img/beautiful-daylight.jpg') no-repeat center center/cover;
     padding-top: 100px;
 }
